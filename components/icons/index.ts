@@ -1,0 +1,5 @@
+export { IconDeploy } from './IconDeploy'
+export { IconGithub } from './IconGithub'
+export { IconInstagram } from './IconInstagram'
+export { IconLinkedin } from './IconLinkedin'
+export { IconTwitter } from './IconTwitter'
