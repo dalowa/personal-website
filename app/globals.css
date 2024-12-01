@@ -22,3 +22,37 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
 }
+
+/* .center-absolute {
+  
+  left: 50%;
+  transform: translate(-50%, 0%); 
+} */
+
+.logo-dalowa-a path,
+.logo-dalowa-a rect {
+  fill: #BF0426; /* Color azul */
+  transition: fill 0.3s linear;
+}
+
+.logo-dalowa-b path,
+.logo-dalowa-b rect {
+  fill: #0A0E17; /* Color azul */
+  transition: fill 0.3s linear;
+}
+
+/* .logo-expand {
+  width: calc(100% - 2rem);
+  transition-property: transform, width;
+  transition-delay: 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+} */
+
+.transition-logo {
+  transition-property: background-color, transform, width;
+}
+
+.transition-menu {
+  transition-property: background-color, width;
+}
